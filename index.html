@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>zitcoin white.o</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="favicon.ico">
+<link rel="favicon" href="favicon.ico?v=2">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+  html{
+    scroll-behavior:smooth;
+  }
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+.zit{
+  color:skyblue;
+}
+</style>
+</head>
+<body>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-red w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="w3-container">
+   <h3 class="w3-padding-64"> <img src="logo.jpg.jpg " style="height:30px; margin-right:20px; border-radius: 4px;"><b><span class=zit>ZIT</span>COIN<br>WHITEPAPER</b></h3>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a> 
+    <a href="#showcase" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">🎯  Ecosystem</a> 
+    <a href="#services" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">☕ Tokenomics</a> 
+    <a href="#designers" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">🚀  IDO</a> 
+    <a href="#packages" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">📊  Farm</a> 
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">💁  NFT</a>
+    <a href="#staking" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">💎 Staking</a>
+    <a href="#pool" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">🌱 POOL</a>
+    <a href="#trigger" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">💧 Trigger</a> 
+    <a href="#dex" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">💧 DEX </a>
+
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
+  <p>ZITCoin WHITEPAPER</p>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+  <!-- Header -->
+  <div class="w3-container" style="margin-top:80px" id="showcase">
+    <h1 class="w3-jumbo"><b>🎯  Ecosystem</b></h1>
+    <h1 class="w3-xxxlarge w3-text-red"><b>Showcase.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+  </div>
+  
+  <!-- Photo grid (modal) -->
+  <div class="w3-row-padding">
+    <h2>Ecosystem</h2>
+    <p>Web3 Coin is a community-driven network that includes multi-chain mining pools, aggregated DEX, DAO governance, Mining pools，Metaverse ，Gamefi and NFT market. The income of all Web3 Coin modules belongs to the token holders.
+    </p>
+
+     <h2>Community driven</h2>
+    <p>
+      Web3 Coin is a decentralized blockchain network of the world-scale. We are building one largest communities in the world.</p>
+    
+    <h2>Community autonomous</h2>
+    <p>
+      Buy and sell cryptocurrencies and NFTs on decentralized trading platforms，borrow on-chain and third-party unsecured loans，all of this will be realized through the community autonomous DAO organization that manages Web3 coin.</p>
+    
+  </div>
+
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
+
+  <!-- Services -->
+  <div class="w3-container" id="services" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>☕ Tokenomics.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>What is ZITCOIN Token?</p>
+    <p>ZitCoin Token is a governance token built on the Binance Smart Chain (BEP20) blockchain network,$Web3 Coin will be the sole currency of the entire ecosystem.
+    </p>
+    <p>100% Community Owned 100,000,000,000 Total Supply</p>
+    <p>
+      burn            50%<br>
+      pre-sale        30%<br>
+      private sale    0.5%<br>
+      project team    1%<br>
+      Development     5%<br>
+      marketing       4.5%<br>
+      Liquidity       9%<br>
+    </p>
+  </div>      
+  <!-- Designers -->
+  <div class="w3-container" id="designers" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>IDO.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>What is Web3 Coin IDO?</p>
+    <p>Web3 Coin based on fair launch, except that it is executed using soft cap funds acquired through a IDO.<br> The IDO at which point the cash raised will be utilized to balance the liquidity, further increasing the price.</p>
+    <p><b>Our designers are thoughtfully chosen</b>:</p>
+  </div>
+
+  
+
+  <!-- Packages / Pricing Tables -->
+  <div class="w3-container" id="packages" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>📊  Farm.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>Web3coin Farm is an Automated Market Maker (AMM) that provides liquidity by allowing its users to trade with crypto tokens</p>
+    <hr>
+    <p>By validating nodes, buyers become an important part of the supply chain. The buyer's main source of income is the remuneration and interest paid to the holder</p>
+    </div>
+  
+  <!-- Contact -->
+  <div class="w3-container" id="contact" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>💁  NFT.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>Web3 Decentralized protocols offer NFTs new capabilities in terms of interoperability, meaning your NFTs can be transferred between multiple marketplaces, games, or they can be minted through yield farming offerings.</p>
+  </div>
+
+  <!-- Packages / Pricing Tables -->
+  <div class="w3-container" id="staking" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>📊  staking.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p><h2><b>Growth highly</b></h2></p>
+    <p>Web3 Coin's users can acquire through staking programs,, our platform growth has rocketed to the moon.</p>
+    <hr>
+    <p><h2><b>POS Mechanism</b></h2></p>
+    <p>As a productivity farming protocol, Web3 Coin is purpose-built seeking to exploit Proof of Stake (PoS) capabilities on Binance Smart Chain (BSC).</p>
+    <hr>
+    <p><h2><b>Freely And Smoothly</b></h2></p>
+    <p>
+      Web3 Coin platform benefits users by utilizing the leveragability of their host blockchain. users can freely and smoothly pick to suit their needs.</p>  
+  
+  </div>
+
+    <!-- Packages / Pricing Tables -->
+  <div class="w3-container" id="pool" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>📊  POOL.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>
+      Web3 Coin pool adopts liquidity mining mechanism with no pre-mining, and no team reservation.<br>
+      On the BSC public chains, stake Web3 Coin mining to obtain Web3 Coin. According to the change of staking period, up to 4 times the computing power can be obtained.
+     <br><hr>
+      The staked token cannot be raised during mining. The mining profit can be withdrawn at any time.
+    <hr>
+    </p>
+    </div>
+
+    <!-- Packages / Pricing Tables -->
+  <div class="w3-container" id="trigger" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>📊 TIGGER.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>Trigger helps Web3 Coin finance deposited funds in the system to capture high profits outside the ecosystem that brings more benefits to the Web3 Coin finance ecosystem.</p>
+    </div>
+
+    <!-- Packages / Pricing Tables -->
+  <div class="w3-container" id="dex" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>📊  DEX.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p><b>Advanced algorithms</b></p>
+    <p>
+      Web3 Coin obtains liquidity from major exchanges through advanced algorithms, splits a single transaction between multiple DEXs, provides asset exchange at the best price in the market, and reduces fee.</p>
+    <hr>
+    <p><b>better transaction depth</b></p>
+    <p>
+      Web3 Coin pioneered the (time-weighted) mechanism to that solves the problem of impermant loss, simulate a better transaction depth. Fees earn is distributed among the team, nodes and super nodes.</p>
+    <p><b><i>Liquidity pool</i></b></p>
+    <p>
+      Launch a liquidity mining pool for governance tokens, and launch mining pools with partner's projects from time to time.</p>
+    <p><b>Governance rewards </b></p>
+    <p>
+      According to the node governance Web3 Coin, adjust transaction fees, recommendation rewards, governance rewards, mining pools, etc.</p>
+    </div>
+
+
+<!-- End page content -->
+<footer class="w3-center w3-black w3-padding-64">
+  <footer class="w3-center w3-black w3-padding-64">
+    <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+    <div class="w3-xlarge w3-section">
+      <a href="#"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+      <a href="#"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+      <a href="#"><i class="fa fa-snapchat w3-hover-opacity"></i></a>
+      <a href="#"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+      <a href="#"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+      <a href="#"><i class="fa fa-telegram w3-hover-opacity"></i></a>
+      <p><b>© 2022 ZIT Coin. All rights reserved.</b></p>
+    </div>
+  </footer>
+</footer>
+
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
+
+</body>
+</html>
